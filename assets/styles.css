@@ -1,0 +1,20 @@
+body{background:#121212;color:#e0e0e0;font-family:'Courier New',monospace;margin:0}
+header{background:#1a1a1a;padding:20px;text-align:center;border-bottom:2px solid #00ff00}
+header h1{color:#00ff00;font-size:2em;animation:glow 2s infinite alternate}
+main{padding:20px}
+section{margin-bottom:30px}
+h2{color:#00ff00;border-bottom:1px solid #00ff00}
+form{display:flex;flex-direction:column;gap:10px}
+label{color:#00ff00}
+input,textarea{background:#1a1a1a;color:#e0e0e0;border:1px solid #00ff00;padding:8px}
+button{background:#00ff00;color:#121212;border:none;padding:10px;cursor:pointer;box-shadow:0 0 5px #00ff00}
+button:hover{box-shadow:0 0 15px #00ff00}
+.projects{background:#1a1a1a;padding:15px;border:1px solid #00ff00}
+.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px}
+.project-card{background:#222;padding:10px;border:1px solid #00ff00;box-shadow:0 0 5px #00ff00}
+.project-card:hover{transform:scale(1.05);box-shadow:0 0 15px #00ff00}
+.project-card h3{color:#00ff00}
+.call-to-action{color:#00ff00;text-align:center}
+footer{background:#1a1a1a;padding:10px;text-align:center;border-top:2px solid #00ff00}
+@keyframes glow{from{text-shadow:0 0 5px #00ff00}to{text-shadow:0 0 15px #00ff00}}
+@media (max-width:600px){.project-grid{grid-template-columns:1fr}}
